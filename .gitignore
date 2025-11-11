@@ -1,0 +1,45 @@
+# TimeCast Pro Store Releases - Public Repo .gitignore
+
+# CRITICAL: Prevent accidental source code commits!
+*.js
+*.html
+*.css
+*.json
+!package.json
+!README.md
+!.gitignore
+
+# Source code directories
+src/
+libs/
+assets/
+locales/
+companion-source/
+
+# Development files
+*.md
+!README.md
+*.txt
+
+# Build artifacts (keep only .exe)
+dist/
+build/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Certificates
+*.pfx
+*.pem
+*.key
+*.cert
